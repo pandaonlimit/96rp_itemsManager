@@ -24,10 +24,10 @@ local blacklist = {
 }
   
 local whiteListInventorys = {
-      "policetrash_1",                      <- inventorys allowed to swap items
+  "policetrash_1",                      <- inventorys allowed to swap items
 }
 
 local metadataJobWhiteList = {
-      policeItem = 'police'                 <- comming soon?!
+  policeItem = 'police'                 <- comming soon?!
 }
 </pre>
