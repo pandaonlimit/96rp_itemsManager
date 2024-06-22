@@ -17,3 +17,17 @@ Current functions:
    <li>Blacklist items only with given metadata</li>
    <li>Whitelist inventorys</li>
 </ul>
+<pre>
+    local blacklist = {
+      WEAPON_STUNGUN = { 'policeItem' },    <- items with "policeItem" as metadata are blacklisted
+      WEAPON_44MAGNUM = {  },               <- item is blacklisted
+  }
+  
+  local whiteListInventorys = {
+      "policetrash_1",                      <- inventorys allowed to swap items
+  }
+  
+  local metadataJobWhiteList = {
+      policeItem = 'police'                 <- comming soon?!
+  }
+</pre>
