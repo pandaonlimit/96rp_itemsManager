@@ -1,15 +1,6 @@
 local blacklist = {
     WEAPON_STUNGUN = { 'policeItem' },
-    WEAPON_44MAGNUM = { 'policeItem' },
-    WEAPON_BEANBAG = { 'policeItem' },
-    WEAPON_M4A1 = { 'policeItem' },
-    WEAPON_TACTICALRIFLE = { 'policeItem' },
-    WEAPON_M4 = { 'policeItem' },
-    radio = { 'policeItem' },
-    ['ammo-9'] = { 'policeItem' },
-    ['ammo-45'] = { 'policeItem' },
-    ['ammo-shotgun'] = { 'policeItem' },
-    ['ammo-rifle'] = { 'policeItem' }
+    WEAPON_44MAGNUM = { '' },
 }
 
 local whiteListInventorys = {
